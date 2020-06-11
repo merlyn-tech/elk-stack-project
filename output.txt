@@ -1,0 +1,30 @@
+ELK Stack Project
+|   .DS_Store
+|   output.txt
+|   README.md
+|   
++---ansible
+|   |   ansible.cfg
+|   |   hosts
+|   |   
+|   \---roles
+|       |   playbook-dvwa.yml
+|       |   playbook-elk.yml
+|       |   playbook-filebeat.yml
+|       |   playbook-metricbeat.yml
+|       |   
+|       \---files
+|               filebeat-configuration.yml
+|               metricbeat-configuration.yml
+|               
+\---Images
+        curl_output.png
+        diagram.png
+        docker_ps_output.png
+        edit_hosts.png
+        filebeat_dashboard.png
+        filebeat_success.png
+        kibana_dashboard.png
+        metricbeat_dashboard.png
+        metricbeat_success.png
+        
